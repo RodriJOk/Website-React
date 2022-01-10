@@ -1,0 +1,79 @@
+@import '_vars.scss';
+
+.home{
+    position: relative;
+    background-color: var(--first-color);
+    height: 500px;
+    width: 100%;
+    color: var(--white-color);
+}
+
+.home__title{
+    align-self: flex-start;
+    text-align: center;
+    line-height: 1.2;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.home__title span{
+    font-weight: 100;
+    font-size: 85px;
+    text-shadow: 0 20px 25px rgba(0,0, 0, .5);
+}
+
+.home_mini_container{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.home__scroll{
+    width: 10%;
+    padding-left: 5px;
+}
+
+.home__scroll-link{
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    color: var(--white-color);
+}
+
+.home_mini_text{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.text-cursor::after {
+    content: '|';
+    opacity: 1;
+    animation: blinkTextCursor 1s infinite;
+}
+  
+  .text-cursor.typing::after {
+    animation: none;
+  }
+
+  @keyframes blinkTextCursor {
+    0%, 25%, 80%, 100% {
+      opacity: 1;
+    }
+    30%, 75% {
+      opacity: 0;
+    }
+  }
+  
+  .buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+.text-cursor{
+    margin: 1rem;
+    text-align: center;
+    height: auto;
+    line-height: 2.2rem;
+    font-size: 1rem;
+}
