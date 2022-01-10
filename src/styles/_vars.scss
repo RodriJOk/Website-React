@@ -1,0 +1,84 @@
+:root{
+    /*===== Components size =====*/    
+    --header-height: 3rem;
+    --font-medium: 500;
+    --font-big:600;
+    
+    /*===== Colors =====*/
+
+    --first-color:#881c09;
+    --second-color:#273374;
+    --third-color: #902c1a;
+    --white-color:#FAFAFF;
+    --dark-color: #2A3847;
+    --text-color: #697477;
+    --gray-color: #ccc;
+    --black-color: #000000;
+    
+    /* ===== Margins =====*/
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    
+    /*===== z index =====*/
+    --z-fixed:100;
+
+    /* ===== Fuente y tipografia =====*/
+    --body-font: 'Poppins', sans-serif;
+        
+        /* ===== Mobile =====*/
+        --big-font-size: 5.25rem;
+        /*--big-font-size: 6.25rem;*/
+        --h2-font-size: 1.25rem;
+        --normal-font-size: .938rem;
+        --small-font-size: .900rem;
+}
+
+@media screen and (min-width: 768px){
+    :root{
+        --big-font-size: 10.5rem;
+        --h2-font-size:2rem;
+        --normal-font-size: 1rem;
+        --small-font-size: .875rem;
+    }
+}
+
+/*===== Base =====*/
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    margin: var(--header-height)0 0 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1,h2,p{
+    margin:0;
+    font-weight: var(--font-big);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    /* color: var(--text-color); */   
+    /* color: var(--white-color); */
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

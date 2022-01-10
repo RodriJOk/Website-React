@@ -1,0 +1,45 @@
+@import "_vars.scss";
+
+
+.footer{
+    background-color: var(--first-color);
+    font-weight: 700;
+}
+// .footer__container{
+//     row-gap: 2rem;
+//     /* font-weight: 700; */
+//     color: #fff;
+// }
+
+
+.footer__container{
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.footer__title{
+    font-size: var(--normal-font-size);
+    color: var(--white-color);
+    margin-bottom: var(--mb-2);
+    color: #fff;
+}
+
+
+.footer__link{
+    padding: .25rem 0;
+}
+
+.footer__link:hover{
+    color: var(--white-color);
+    font-weight: var(--font-big);
+}
+
+
+.footer__data a {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.746);
+}
+
+.footer__data a:hover{
+    color: white;
+}
