@@ -9,6 +9,7 @@
 }
 
 .footer__container{
+    margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 }
@@ -53,14 +54,14 @@
     }
 }
 
+.footer__data-follow {
+    .footer__title{
+        color: var(--white-color);
+    }
 
-
-
-.footer__data a {
-    font-weight: 500;
-    color: rgba(255, 255, 255, 0.746);
-}
-
-.footer__data a:hover{
-    color: white;
+    .icon{
+        color: var(--white-color);
+        font-size: var(--normal-font-size);
+        margin-right: var(--mr-2);
+    }
 }

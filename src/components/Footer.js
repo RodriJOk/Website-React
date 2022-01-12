@@ -1,4 +1,8 @@
 import '../styles/Footer.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLink, faBell } from '@fortawesome/free-solid-svg-icons';
+import {faLinkedin, faInstagram, faGithub} from '@fortawesome/free-brands-svg-icons';
+
 
 const Footer = () => {
     return ( 
@@ -23,13 +27,13 @@ const Footer = () => {
                 <div className="footer__data-follow">
                     <h2 className="footer__title">FOLLOW</h2>
                     <a href="https://www.linkedin.com/in/rodrijuarez/" className="about__social-icon">
-                        <i class='bx bxl-linkedin'></i>
+                        <FontAwesomeIcon icon={faLinkedin} className='icon'/>
                     </a>
                     <a href="https://github.com/RodriJOk" className="about__social-icon">
-                        <i class='bx bxl-github'></i>
+                        <FontAwesomeIcon icon={faGithub} className='icon'/>
                     </a>
                     <a href="https://www.instagram.com/preguntastech" className="about__social-icon">
-                        <i class='bx bxl-instagram' ></i>
+                        <FontAwesomeIcon icon={faInstagram} className='icon'/>
                     </a>
                 </div>
 
