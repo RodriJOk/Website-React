@@ -82,3 +82,13 @@ img{
     height: auto;
     display: block;
 }
+
+.section-title{
+    width: 20%;
+    margin: 20px auto;
+    padding: var(--mb-1) 0;
+    font-weight: 900;
+    color: var(--dark-color);
+    border-bottom: 2px solid var(--first-color);
+    text-align: center;
+}

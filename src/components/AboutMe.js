@@ -10,7 +10,7 @@ const AboutMe = () => {
                     <img src="imagenes/index/Foto.jpg" alt="Alan Rodrigo Juarez" loading="lazy" />
                 </div>
 
-                <div className=''>
+                <div className='about__container-info'>
                     <h2 className="about__subtitle">Alan Rodrigo Juarez</h2>
                     <p className="about__profession">Desarrollador Web Front-End </p>
                     <p className="about__text">Soy un desarrollador Web Front-End, autodidacta, apasionado por el desarrollo web, y con muchas ganas de formar parte de un equipo en el cual pueda aportar mis conocimientos y aceptar nuevos retos y desafios. Tambien me gusta mucho compartir mis conocimientos y me fascina que la tecnologia sea un medio que contribuya a eso. </p>

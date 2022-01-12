@@ -1,4 +1,3 @@
-
 .personal-articles{
     text-align: center;
 }
@@ -33,4 +32,15 @@
     justify-content: space-around;
     align-items: center;
     gap: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .personal-articles_single{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .personal-articles_single .read-more p{
+        display: none;
+    }
 }

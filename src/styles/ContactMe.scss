@@ -22,3 +22,15 @@
 .contacto__parrafo{
     padding-left: 20px;
 }
+
+@media screen and (max-width: 768px){
+    .contacto__rodrigo a{
+        width: 70%;
+        height: 4rem;
+        font-size: 26px;
+    }    
+
+    .contacto__rodrigo a:hover{
+        border: 1px solid var(--white-color);
+    }
+}
