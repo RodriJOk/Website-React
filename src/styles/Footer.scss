@@ -1,6 +1,5 @@
 @import "_vars.scss";
 
-
 .footer{
     margin-top: 100px;
     padding: 20px 0px;
@@ -19,7 +18,6 @@
 
     .footer__title{
         font-size: 24px;
-        //font-size: var(--normal-font-size);
         color: var(--white-color);
         margin-bottom: var(--mb-2);
         color: #fff;
@@ -36,7 +34,6 @@
 
     .footer__title{
         font-size: 24px;
-        //font-size: var(--normal-font-size);
         color: var(--white-color);
         margin-bottom: var(--mb-2);
         color: #fff;
@@ -63,5 +60,16 @@
         color: var(--white-color);
         font-size: var(--normal-font-size);
         margin-right: var(--mr-2);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
     }
 }

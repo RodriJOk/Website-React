@@ -36,8 +36,6 @@ const Footer = () => {
                         <FontAwesomeIcon icon={faInstagram} className='icon'/>
                     </a>
                 </div>
-
-
             </div>
         </footer>
      );
