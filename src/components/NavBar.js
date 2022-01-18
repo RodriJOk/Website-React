@@ -7,13 +7,13 @@ const NavBar = () => {
         <header className="header">
             <nav className="header-nav bd-grid">
                 <div className="header-nav__logo">
-                    <NavLink to={Home} className="logo">Alan Rodrigo Juarez</NavLink>
+                    <NavLink to={'/'} className="logo">Alan Rodrigo Juarez</NavLink>
                 </div>
 
                 <div className="header-nav__menu" id="nav-menu">
                     <ul className="nav__list">
                         <li className="nav__item">
-                            <NavLink to={'/home'} className="nav__link">Home</NavLink>
+                            <NavLink to={'/'} className="nav__link">Home</NavLink>
                         </li>
                         <li className="nav__item">
                             <NavLink to={'/home#aboutme'} className="nav__link">Sobre mi</NavLink>
