@@ -7,16 +7,17 @@ const NavBar = () => {
         <header className="header">
             <nav className="header-nav bd-grid">
                 <div className="header-nav__logo">
-                    <NavLink to={'/'} className="logo">Alan Rodrigo Juarez</NavLink>
+                    <NavLink to={'/home'} className="logo">Alan Rodrigo Juarez</NavLink>
                 </div>
 
                 <div className="header-nav__menu" id="nav-menu">
                     <ul className="nav__list">
                         <li className="nav__item">
-                            <NavLink to={'/'} className="nav__link">Home</NavLink>
+                            <NavLink to={'/home'} className="nav__link">Home</NavLink>
                         </li>
                         <li className="nav__item">
-                            <NavLink to={'/home#aboutme'} className="nav__link">Sobre mi</NavLink>
+                            <NavLink to='/home#aboutme' className="nav__link">Sobre mi</NavLink>
+                            {/* <a href='#aboutme'>Sobre mi</a> */}
                         </li>
                         <li className="nav__item">
                             <NavLink to={'/home#skills'} className="nav__link">Skills</NavLink>

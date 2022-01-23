@@ -2,7 +2,7 @@ import '../styles/AboutMe.scss';
 
 const AboutMe = () => {
     return ( 
-        <section className="about section" id="about">
+        <section className="about section" id="aboutme">
             <h2 className="section-title">Sobre mi</h2>
 
             <div className='about__container bg-grid'>

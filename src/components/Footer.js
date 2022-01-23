@@ -1,6 +1,5 @@
 import '../styles/Footer.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLink, faBell } from '@fortawesome/free-solid-svg-icons';
 import {faLinkedin, faInstagram, faGithub} from '@fortawesome/free-brands-svg-icons';
 
 

@@ -3,7 +3,7 @@
 .home{
     position: relative;
     background-color: var(--first-color);
-    height: 500px;
+    height: 100vh;
     width: 100%;
     color: var(--white-color);
 }
@@ -31,8 +31,12 @@
 
 .home__scroll{
     width: 10%;
-    padding-left: 5px;
-}
+    padding-left: 5px;  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+  }
 
 .home__scroll-link{
     writing-mode: vertical-lr;
@@ -40,46 +44,33 @@
     color: var(--white-color);
 }
 
+.faArrowUp{
+  margin: 15px 5px;
+}
+
 .home_mini_text{
     width: 100%;
     text-align: center;
     font-size: 30px;
 }
-.text-cursor::after {
-    content: '|';
-    opacity: 1;
-    animation: blinkTextCursor 1s infinite;
-}
-  
-  .text-cursor.typing::after {
-    animation: none;
-  }
-
-  @keyframes blinkTextCursor {
-    0%, 25%, 80%, 100% {
-      opacity: 1;
-    }
-    30%, 75% {
-      opacity: 0;
-    }
-  }
-  
-  .buttons {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-  }
-
-.text-cursor{
-    margin: 1rem;
-    text-align: center;
-    height: auto;
-    line-height: 2.2rem;
-    font-size: 1rem;
-}
 
 .text-cursor__prov{
   width: 90%;
   text-align: center;
+  font-size: 30px;
+}
+
+.social-section{
+  width: 30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.faLinkedin, .faGithub, .faInstagram{
+  color: var(--white-color);
   font-size: 30px;
 }
