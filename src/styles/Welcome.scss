@@ -22,55 +22,58 @@
     text-shadow: 0 20px 25px rgba(0,0, 0, .5);
 }
 
-.home_mini_container{
+.home__description{
+    width: 80%;
     padding-top: 20px;
-    display: flex;
-    align-items: center;
-    width: 90%;
-}
-
-.home__scroll{
-    width: 10%;
-    padding-left: 5px;  
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: flex-start;
-  }
-
-.home__scroll-link{
-    writing-mode: vertical-lr;
-    transform: rotate(-180deg);
-    color: var(--white-color);
-}
-
-.faArrowUp{
-  margin: 15px 5px;
-}
-
-.home_mini_text{
-    width: 100%;
-    text-align: center;
+    text-align: left;
     font-size: 30px;
+    margin: 0 auto;
 }
 
-.text-cursor__prov{
-  width: 90%;
-  text-align: center;
-  font-size: 30px;
+.home__contactme{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    
+    & .home__scroll{
+        width: 10%;
+        padding-left: 5px;  
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: flex-start;
+      
+      & a{
+          writing-mode: vertical-lr;
+          transform: rotate(-180deg);
+          color: var(--white-color);
+      }
+      
+      & .faArrowUp{
+          margin: 15px 5px;
+      }
+    }
+    
+    & .home__social{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+      
+      & .faLinkedin, .faGithub, .faInstagram{
+        color: var(--white-color);
+        font-size: 40px;
+        }
+      
+      & .faLinkedin:hover, .faGithub:hover, .faInstagram:hover{
+        color: var(--gray-color);
+      }
+    }
 }
 
-.social-section{
-  width: 30%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 50px;
-}
-
-.faLinkedin, .faGithub, .faInstagram{
-  color: var(--white-color);
-  font-size: 30px;
-}
